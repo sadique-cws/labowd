@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bootstrap.css' %}">
+
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a href="" class="navbar-brand">Labowd.com</a>
+
+            <form action="" class="form-inline">
+                <input type="text" name="" class="form-control">
+                <input type="submit" name="" class="btn btn-danger">
+            </form>
+        </nav>
+
+    {% block content %}
+
+    {% endblock %}
+</body>
+</html>
